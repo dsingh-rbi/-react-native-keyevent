@@ -171,7 +171,7 @@ RNKeyEvent *keyEvent = nil;
   }
 
   if ([keyEvent isListening]) {
-    NSArray *namesArray = [[keyEvent getKeys] componentsSeparatedByString:@", "];
+    NSArray *namesArray = [[keyEvent getKeys] componentsSeparatedByString:@" ,"];
 
     NSCharacterSet *validChars = [NSCharacterSet characterSetWithCharactersInString:@"ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
 

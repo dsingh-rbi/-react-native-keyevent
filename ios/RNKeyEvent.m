@@ -33,7 +33,7 @@ RCT_EXPORT_MODULE();
 
 // Updating the keystorke required for number pad to work ( seprator should be ", ")
 - (NSString *)getKeys {
-    return  [NSString stringWithFormat:@"!,. ,, ,\b ,1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,0 ,\r,%@,%@,%@,%@",UIKeyInputLeftArrow, UIKeyInputRightArrow, UIKeyInputUpArrow, UIKeyInputDownArrow];
+    return  [NSString stringWithFormat:@"! ,. ,, ,\b ,1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,0 ,\r,%@,%@,%@,%@",UIKeyInputLeftArrow, UIKeyInputRightArrow, UIKeyInputUpArrow, UIKeyInputDownArrow];
 }
 
 - (void)sendKeyEvent:(NSString *)keyString {
